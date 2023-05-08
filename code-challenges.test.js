@@ -57,45 +57,34 @@
 // Ran all test suites.
 // error Command failed with exit code 1.
 
-//PseudoCode
-//input: a number (6)
-//Output: an array within the fibonacci sequence
-//process:Create a function newFibo, add the parameter of an array. 
-//Create conditional statement declaring that if number is greater than 2, return fibo sequence
-//create a variable that adds the same amount of index locations as much as the number
-//create else statement to return "try again"
-
-
-
-//that takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence.
-
 
 
 
 // b) Create the function that makes the test pass.
-
-// const newFibo = (number) => {
-//   if (number > 2)
-//   return []
-// } else {
-//   number <
-// }
-
-
-
-
+//PseudoCode
+//input: a number (6)
+//Output: an array within the fibonacci sequence
+//process:Create a function newFibo, add the parameter of an array. 
+//Create conditional statement that ensures number starts with 2
+//create a variable that will store location of new array
+//iterate through the array using for loop
+//take the [i] and create an equation to add the result of the iteration ?
+//create else statement to return "try again"
 
 
+const fibLength1 = 6
+//Expected output: [1, 1, 2, 3, 5, 8]
 
+const fibLength2 = 10
+//Expected output: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
-
-
-
-
-
-
-
-
+const newFibo = (number) => {
+  if (number < 2)
+  return []
+} for(let i=2; i <Array.length; i++)
+  const fiboSeq = ([i] + fibLength1 -1)
+  
+  consologe log (newFibo(fibLength1))
 
 
 
@@ -158,6 +147,32 @@
 
 
 
+const studyMinutesWeek1 = {
+        sunday: 90,
+        monday: 30,
+        tuesday: 20,
+        wednesday: 15,
+        thursday: 30,
+        friday: 15,
+        saturday: 60 ]
+const studyMinutesWeek2 = {
+        sunday: 100,
+        monday: 10,
+        tuesday: 45,
+        wednesday: 60,
+        thursday: 20,
+        friday: 15,
+        saturday: 65 }
+
+const leastToG = (number) => {
+ for(let i=0; i <Array.length; i++)
+  const leftToRight = ([i]) 
+}
+  
+  console.log (leastToG(studyMinutesWeek1))
+
+
+
 
 
 
@@ -189,19 +204,19 @@ const accountTransactions3 = []
 // Expected output: []
 
 
-describe('newSum', () => {
-  it('takes an array, adds the numbers inside, returns the sum', () => {
-    const accountTransactions1 = [100, -17, -23, -9]
-    // Expected output: [100, 83, 60, 51]
-    const accountTransactions2 = [250, -89, 100, -96]
-    // Expected output: [250, 161, 261, 165]
-    const accountTransactions3 = "[]"
-    // Expected output: [] 
-  expect(newsSum(accountTransactions1)).toEqual([100, 83, 60, 51])
-  expect(newSum(accountTransactions2)).toEqual([250, 161, 261, 165])
-  expect(newSum(accountTransactions3)).toEqual([[]])
-  })
-})
+// describe('newSum', () => {
+//   it('takes an array, adds the numbers inside, returns the sum', () => {
+//     const accountTransactions1 = [100, -17, -23, -9]
+//     // Expected output: [100, 83, 60, 51]
+//     const accountTransactions2 = [250, -89, 100, -96]
+//     // Expected output: [250, 161, 261, 165]
+//     const accountTransactions3 = "[]"
+//     // Expected output: [] 
+//   expect(newsSum(accountTransactions1)).toEqual([100, 83, 60, 51])
+//   expect(newSum(accountTransactions2)).toEqual([250, 161, 261, 165])
+//   expect(newSum(accountTransactions3)).toEqual([[]])
+//   })
+// })
 
 
 //RED- Good Failure
@@ -235,16 +250,23 @@ describe('newSum', () => {
 //Pseudo Code:
 //input
 //output
-//process: take an array and iterate across it, allowing the numbers to accumulate.
+//process:
+//create a function to return an empty array if the index of the array is 0
+//take an array and iterate across it, allowing the numbers to accumulate.
+//create a new variable to store the sum
 //Add one index inside the string to the next index.
 //iterate across the array by using a for loop
 //create new variable that keeps the new value
-//take the sum
+//take the iterated array and add number values together
 //return an array
 
-const newSum = (array) => {
-  for(let i=0; i < array.length; i++)
-  const newArray { accountTransactions1.
-  }
-}
-console.log(newSum())
+// const newSum = (array) => {
+//   if(array.length === 0)
+//   return []
+//   const addedNumbers = 0;
+//   for(let i=0; i < array.length; i++) [
+//     addedNumbers([i] += )
+//   ]
+
+// }
+// console.log(newSum(accountTransactions1))
